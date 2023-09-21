@@ -1,0 +1,144 @@
+form{
+    background: rgba(0, 0, 0, 0);
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.form-group{
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    position: relative;
+}
+
+.btn-Cancelar{
+    margin-left: 10%;
+    padding: 6px;
+    width: 130px;
+    top: 280px;
+    left: 50px;
+    background: rgb(0, 0, 0);
+    border: 1x solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-Cancelar:hover
+{
+    background: red;
+    color: black;
+}
+
+.btn-Actualizar{
+    margin-left: 10%;
+    padding: 6px;
+    width: 130px;
+    top: 280px;
+    left: 200px;
+    background: rgb(0, 0, 0);
+    border: 1x solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-Actualizar:hover
+{
+    background: greenyellow;
+    color: black;
+}
+
+input{
+    background: rgba(255, 255, 255, 0);
+    color:rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin: center;
+    padding-right: 10px;
+    padding-top: 7px;
+    left: 38%;
+    width: 40%;
+    position: absolute;
+}
+
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.box{
+    background: rgba(255, 255, 255, 0);
+    color:rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin: center;
+    padding-right: 0px;
+    padding-top: 7px;
+    left: 38%;
+    width: 40%;
+    position: absolute;
+    font-weight: bold;
+}
+
+.opción{
+    background: rgba(0, 0, 0, 0.171);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    left: 18%;
+}
+
+.btn-Guardar{
+    margin-left: 10%;
+    padding: 6px;
+    width: 130px;
+    top: 280px;
+    left: 200px;
+    background: rgb(0, 0, 0);
+    border: 1x solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-Guardar[disabled]
+{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn-Guardar:hover{
+    background: greenyellow;
+    color: black;
+}
+
+
+
+
+
+
+/** PARTE DEL JAVA SCRIPT VALIDACIóN **/
+
+.mensaje_error{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: -5px;
+    left: 38%;
+}
+
+.mensaje_longitud{
+
+    color: rgb(251, 255, 0);
+    position: absolute;
+    top: -5px;
+    left: 38%;
+}
+
+.mensaje_exito{
+    color: rgb(55, 255, 65);
+    position: absolute;
+    top: -5px;
+    left: 38%;
+}

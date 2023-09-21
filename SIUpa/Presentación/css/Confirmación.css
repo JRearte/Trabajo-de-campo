@@ -1,0 +1,78 @@
+.confirm{
+    height: 250px;
+    width: 600px;
+    background: rgba(168, 168, 168, 0);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border-radius: 10px;
+}
+
+.confirm input{
+    top: 35%;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    padding: 6px;
+}
+
+.confirm .btnConfirmar{
+    border: 1px solid black;
+    left: 18%;
+}
+
+.confirm .btnConfirmar:hover{
+    border: 1px solid black;
+    background: greenyellow;
+    color: black;
+}
+
+.confirm .btnCancelar{
+    border: 1px solid black;
+    left: -18%;
+}
+
+.confirm .btnCancelar:hover{
+    border: 1px solid black;
+    background: rgb(255, 0, 0);
+    color: black;
+}
+
+.confirm .c_eliminar{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -120px;
+    left: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px red,  0 0 40px red,  0 0 80px red,  0 0 120px red;
+}
+
+.confirm p{
+    font-weight: bold;
+    position: relative;
+    color: rgb(255, 255, 255);
+    left: -8%;
+    top: -20%;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.confirm .c_pregunta{
+    font-size: 17px;
+}
+
+.confirm .c_nombre{
+    top: -15%;
+}
+
+.confirm .c_legajo{
+    top: -10%
+}
+
+.confirm .c_categoria{
+    top: -5%;
+}
